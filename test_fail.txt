@@ -1,0 +1,22 @@
+total 24
+drwxr-xr-x@ 4 johnroddy  staff  128 May 31 13:36 __pycache__
+-rw-r--r--@ 1 johnroddy  staff  321 May 31 13:21 palindrome.py
+-rw-r--r--@ 1 johnroddy  staff  245 May 31 13:36 palindrome1.py
+-rw-r--r--@ 1 johnroddy  staff    0 May 31 13:42 test_fail.txt
+-rw-r--r--@ 1 johnroddy  staff  550 May 31 13:35 test_palindrome.py
+
+
+
+Traceback (most recent call last):
+  File "/Users/johnroddy/p4e_final/final/chap1-6/palindrome/test_palindrome.py", line 11, in test_palindrome
+    self.assertEqual(palindrome('racecar'), True)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/johnroddy/p4e_final/final/chap1-6/palindrome/palindrome1.py", line 4, in palindrome
+    if (inp) < 3:
+       ^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
